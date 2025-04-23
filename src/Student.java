@@ -14,12 +14,11 @@ public class Student extends Person{
     // Method: Overridden from parent (Person)
     @Override
     String displayInfo(){
-        System.out.println("Name: " + this.name);
-        System.out.println("Role: " + this.role);
-        System.out.println("ID: " + this.id);
-        System.out.println("Age: " + this.age);
-        System.out.println("Grade Level: " + this.gradeLevel);
-        System.out.println("GPA: " + this.gpa);
-        return "";
+        return "Name: " + this.name + "\n" +
+                "Role: " + this.role + "\n" +
+                "ID: " + this.id + "\n" +
+                "Age: " + this.age + "\n" +
+                "Subject: " + this.gradeLevel + "\n" +
+                "Subject: " + this.gpa + "\n";
     }
 }
